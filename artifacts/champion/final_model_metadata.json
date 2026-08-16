@@ -1,0 +1,14 @@
+{
+    "model_name": "random_forest",
+    "experiment": "imbalance",
+    "strategy": "weighted",
+    "model_type": "RandomForestClassifier",
+    "selection_metric": "f1_score",
+    "f1_score": 0.6215644820295984,
+    "roc_auc": 0.8329084075767066,
+    "recall": 0.786096256684492,
+    "precision": 0.513986013986014,
+    "accuracy": 0.7455579246624022,
+    "source_model": "models/imbalance/random_forest_weighted.pkl",
+    "final_model": "models/final_model.pkl"
+}

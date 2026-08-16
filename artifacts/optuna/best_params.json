@@ -1,0 +1,23 @@
+{
+    "logistic_regression": {
+        "C": 0.2210346589153315,
+        "class_weight": "balanced"
+    },
+    "random_forest": {
+        "n_estimators": 245,
+        "max_depth": 11,
+        "min_samples_split": 6,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "class_weight": "balanced_subsample"
+    },
+    "xgboost": {
+        "n_estimators": 330,
+        "max_depth": 6,
+        "learning_rate": 0.06433439080321507,
+        "subsample": 0.6747897489220053,
+        "colsample_bytree": 0.9990115602816511,
+        "min_child_weight": 3,
+        "gamma": 4.9923187808226634
+    }
+}
