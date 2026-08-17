@@ -1,7 +1,7 @@
-fastapi
-uvicorn
-pandas
-numpy
-scikit-learn
-xgboost
-prometheus-client
+fastapi==0.115.6
+uvicorn==0.34.0
+pandas==2.2.3
+numpy==2.5.2
+scikit-learn==1.9.0
+requests==2.32.3
+prometheus-client==0.21.1

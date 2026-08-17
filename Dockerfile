@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements-docker.txt .
 
-RUN pip install --no-cache-dir -r requirements-docker.txt
+RUN pip install --no-cache-dir --default-timeout=1000 --retries=10 -r requirements-docker.txt
 
 COPY src ./src
 COPY models/final_model.pkl ./models/final_model.pkl
