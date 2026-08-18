@@ -2,8 +2,18 @@ global:
   scrape_interval: 5s
 
 scrape_configs:
-  - job_name: "telco-churn-api"
+
+  # Local FastAPI
+  - job_name: "telco-churn-api-local"
     metrics_path: "/metrics"
     static_configs:
       - targets:
           - "telco-churn-api:8000"
+
+  # Render FastAPI
+  - job_name: "telco-churn-api-render"
+    scheme: https
+    metrics_path: "/metrics"
+    static_configs:
+      - targets:
+          - "mlops-champion-challenger.onrender.com"
