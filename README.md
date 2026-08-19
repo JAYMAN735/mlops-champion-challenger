@@ -1078,15 +1078,4 @@ https://mlops-champion-challenger.onrender.com/metrics
 
 ---
 
-# 📚 References
 
-1. Scikit-learn Documentation
-2. ZenML Documentation
-3. MLflow Documentation
-4. Optuna Documentation
-5. FastAPI Documentation
-6. Docker Documentation
-7. Prometheus Documentation
-8. Grafana Documentation
-9. Render Documentation
-10. Python Documentation
